@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../logo.svg';
+import logo from '../../assets/images/slash.svg';
 import './navbar.css';
 
 const NavBar = (props) => {
@@ -7,7 +7,7 @@ const NavBar = (props) => {
     <div className='app-header'>
       <section>
         <img src={logo} className='app-logo' alt='logo' />
-        <h2>iCapps Boilerplate</h2>
+        <h2>icapps Boilerplate</h2>
       </section>
       <section>
         <h3>Welcome {props.username}</h3>
