@@ -21,7 +21,7 @@
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive",
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
-    "build": "npm run build-css && react-scripts build",
+    "build": "npm run build-css && react-scripts build && rm build/static/**/*.map",
     "test": "react-scripts test --env=jsdom",
     "coverage": "npm test -- --coverage --collectCoverageFrom='[\"src/**/*.{js,jsx}\",\"!src/index.js\",\"!src/utils/index.js\",\"!src/registerServiceWorker.js\",\"!src/components/index.js\"]'",
     "lint": "./node_modules/.bin/eslint -c .eslintrc --ext .jsx --ext .js src",
