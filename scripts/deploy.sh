@@ -25,17 +25,17 @@ deploy_environment=$1
 if [[ "$deploy_environment" == "development" ]]
 then
   echo "Deploying to development"
-  heroku_project='icapps-_OLLIE_NAME_KEBAB_CASE_-dev'
+  heroku_project='icapps-react_thunk_template-dev'
   deployment_branch='origin/develop'
 elif [ "$deploy_environment" == "staging" ]
 then
   echo "Deploying to staging"
-  heroku_project='icapps-_OLLIE_NAME_KEBAB_CASE_-staging'
+  heroku_project='icapps-react_thunk_template-staging'
   deployment_branch='origin/staging'
 elif [ "$deploy_environment" == "production" ]
 then
   echo "Deploying to production"
-  heroku_project='icapps-_OLLIE_NAME_KEBAB_CASE_'
+  heroku_project='icapps-react_thunk_template'
   deployment_branch='origin/master'
 else
   exit "You passed the incorrect environment argument. One of theses (staging or production) should be given."

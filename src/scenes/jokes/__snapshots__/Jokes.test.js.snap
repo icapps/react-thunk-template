@@ -20,34 +20,34 @@ ShallowWrapper {
       "children": Array [
         <p
           className="app-jokes"
->
+        >
           <Button
-                    ahref=""
-                    link=""
-                    onClickCallback={[Function]}
-                    theme="secondary"
+            ahref=""
+            link=""
+            onClickCallback={[Function]}
+            theme="secondary"
           >
-                    Tell me a joke!
+            Tell me a joke!
           </Button>
-</p>,
+        </p>,
         <p
           className="app-joke"
->
+        >
           Waiting for a joke 💩
-</p>,
+        </p>,
         undefined,
         <p
           className="back-home"
->
+        >
           <Button
-                    ahref=""
-                    link="/"
-                    onClickCallback={[Function]}
-                    theme="primary"
+            ahref=""
+            link="/"
+            onClickCallback={[Function]}
+            theme="primary"
           >
-                    Take me home
+            Take me home
           </Button>
-</p>,
+        </p>,
       ],
       "className": "app",
     },
@@ -63,9 +63,9 @@ ShallowWrapper {
             link=""
             onClickCallback={[Function]}
             theme="secondary"
->
+          >
             Tell me a joke!
-</Button>,
+          </Button>,
           "className": "app-jokes",
         },
         "ref": null,
@@ -109,9 +109,9 @@ ShallowWrapper {
             link="/"
             onClickCallback={[Function]}
             theme="primary"
->
+          >
             Take me home
-</Button>,
+          </Button>,
           "className": "back-home",
         },
         "ref": null,
@@ -144,34 +144,34 @@ ShallowWrapper {
         "children": Array [
           <p
             className="app-jokes"
->
+          >
             <Button
-                        ahref=""
-                        link=""
-                        onClickCallback={[Function]}
-                        theme="secondary"
+              ahref=""
+              link=""
+              onClickCallback={[Function]}
+              theme="secondary"
             >
-                        Tell me a joke!
+              Tell me a joke!
             </Button>
-</p>,
+          </p>,
           <p
             className="app-joke"
->
+          >
             Waiting for a joke 💩
-</p>,
+          </p>,
           undefined,
           <p
             className="back-home"
->
+          >
             <Button
-                        ahref=""
-                        link="/"
-                        onClickCallback={[Function]}
-                        theme="primary"
+              ahref=""
+              link="/"
+              onClickCallback={[Function]}
+              theme="primary"
             >
-                        Take me home
+              Take me home
             </Button>
-</p>,
+          </p>,
         ],
         "className": "app",
       },
@@ -187,9 +187,9 @@ ShallowWrapper {
               link=""
               onClickCallback={[Function]}
               theme="secondary"
->
+            >
               Tell me a joke!
-</Button>,
+            </Button>,
             "className": "app-jokes",
           },
           "ref": null,
@@ -233,9 +233,9 @@ ShallowWrapper {
               link="/"
               onClickCallback={[Function]}
               theme="primary"
->
+            >
               Take me home
-</Button>,
+            </Button>,
             "className": "back-home",
           },
           "ref": null,
