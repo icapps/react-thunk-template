@@ -19,14 +19,14 @@ ShallowWrapper {
     "props": Object {
       "children": <Switch>
         <Route
-                component={[Function]}
-                path="/auth"
+          component={[Function]}
+          path="/auth"
         />
         <Connect(AuthorizedRoute)
-                component={[Function]}
-                path="/"
+          component={[Function]}
+          path="/"
         />
-</Switch>,
+      </Switch>,
     },
     "ref": null,
     "rendered": Object {
@@ -38,11 +38,11 @@ ShallowWrapper {
           <Route
             component={[Function]}
             path="/auth"
-/>,
+          />,
           <Connect(AuthorizedRoute)
             component={[Function]}
             path="/"
-/>,
+          />,
         ],
       },
       "ref": null,
@@ -84,14 +84,14 @@ ShallowWrapper {
       "props": Object {
         "children": <Switch>
           <Route
-                    component={[Function]}
-                    path="/auth"
+            component={[Function]}
+            path="/auth"
           />
           <Connect(AuthorizedRoute)
-                    component={[Function]}
-                    path="/"
+            component={[Function]}
+            path="/"
           />
-</Switch>,
+        </Switch>,
       },
       "ref": null,
       "rendered": Object {
@@ -103,11 +103,11 @@ ShallowWrapper {
             <Route
               component={[Function]}
               path="/auth"
-/>,
+            />,
             <Connect(AuthorizedRoute)
               component={[Function]}
               path="/"
-/>,
+            />,
           ],
         },
         "ref": null,

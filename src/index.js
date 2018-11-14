@@ -1,3 +1,5 @@
+import 'react-app-polyfill/ie11'; // For IE 11 support
+import 'core-js/es7/array'; // For IE 11 support
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
